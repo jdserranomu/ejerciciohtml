@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio HTML</title>\
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div><img src="image.JPG" alt="Imagen de header" width="100"></div>
+    <div><h1>Ejercicio HTML</h1></div>
+    <nav>
+        <ul id="nav-list">
+            <li><a href="#bienvenida">Bienvenido</a></li>
+            <li><a href="#datos_biograficos">Biografia</a></li>
+            <li><a href="#historial_academico">Historial Academico</a></li>
+            <li><a href="#sitios_interes">Sitios de interes</a></li>
+            <li><a href="#formulario">Formulario</a></li>
+
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="bienvenida">
+        <h2>Bienvenido!</h2>
+        <p>
+            Esta es la primera pagina web basada exclusivamente en <abbr title="Hypertext Markup Language">HTML</abbr>
+            que he diseñado. Espero que la disfruten!
+        </p>
+    </section>
+    <section id="datos_biograficos">
+        <h2>Biografía</h2>
+        <table>
+            <tbody>
+            <tr><td>Nombre</td><td>Juan David</td></tr>
+            <tr><td>Apellidos</td><td>Serrano Mugica</td></tr>
+            <tr><td>Edad</td><td>22</td></tr>
+            <tr><td>Altura</td><td>188</td></tr>
+            <tr><td>Fecha Nacimiento</td><td><time datetime="1998-06-16">16/06/98</time></td></tr>
+            <tr><td>Area mayor</td><td>Ing. Electronica/Ing. de Sistemas</td></tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="historial_academico">
+        <h2>Historial Académico</h2>
+        <dl>
+            <dt>Semestre de Ingreso:</dt>
+            <dd>2016-20</dd>
+            <dt>Semestres Cursados:</dt>
+            <dd>10</dd>
+            <dt>Créditos Aprobados:</dt>
+            <dd>176</dd>
+            <dt>PGA:</dt>
+            <dd>4.47</dd>
+            <dt>Semestre Terminación:</dt>
+            <dd>2021-20</dd>
+        </dl>
+    </section>
+    <section id="sitios_interes">
+        <h2>Sitios Web de Mayor interés</h2>
+        <p>Muchísimos temas me apasionan sin embargo los que mas lo hacen son la computación y el machine learning.
+            Alrededor de estos temas es que gasto la mayoría de mi tiempo en la web.
+        </p>
+        <article>
+            <h3>Videos Favoritos</h3>
+            <p>La construcción de computadores es uno de los temas que uno mas puede aprender en internet, exiten
+                multiples criticos de partes de PC con increibles canales que pueden enseñarle a uno desde lo mas
+                basico hasta lo mas complejo. A continuacion se muestran listare algunos videos de los canales de
+                criticos mas importantes.
+            </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/hK51upU5bkU" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Kua9cY8q_EI" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YySa723VD2Y" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </article>
+        <article>
+            <h3>Enlaces de Interés</h3>
+            <p>
+                Por otro lado, cuando se trata de Machine Learning existe hay un sin numero de revistas digitales con
+                una gran cantidad de contenido. Algunas de ellas son las siguientes.
+            </p>
+            <ul>
+                <li>
+                    <a href="https://medium.com/"> Medium</a>
+                </li>
+                <li>
+                    <a href="https://towardsdatascience.com/"> Towards data science</a>
+                </li>
+                <li>
+                    <a href="https://machinelearningmastery.com/"> Machine Learning MAstery</a>
+                </li>
+            </ul>
+        </article>
+        <article>
+            <h3>Imágenes</h3>
+            <p> Finalmente, como ejemplo de mis intereses estas son algunas fotos del computador que construí el
+                verano pasado.
+            </p>
+            <img class="pc" src="IMG_2200.jpg">
+            <img class="pc" src="IMG_2197.jpg">
+        </article>
+
+    </section>
+    <section id="formulario">
+        <h2>Formulario</h2>
+        <div>
+            <label for="nombre">Nombre</label>
+            <input name="campo_nombre" id="nombre"><br>
+            <label for="correo">Correo</label>
+            <input name="campo_correo" id="correo"><br>
+            <button>Submit</button>
+        </div>
+
+    </section>
+</main>
+<hr>
+<footer>
+    <p> Correo: jd.serranom@uniandes.edu.co</p>
+    <p> Instagram: @juandserrano1</p>
+</footer>
+</body>
+</html>
